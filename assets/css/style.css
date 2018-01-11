@@ -1189,6 +1189,7 @@ Resume Timeline
     -moz-transition: all 400ms;
     -o-transition: all 400ms;
     transition: all 400ms;
+
 }
 
 
@@ -1241,12 +1242,14 @@ Resume Timeline
 .portfolio-info {
     position: absolute;
     bottom: -100%;
-    left: 0;
+    left: 10;
     background-color: #68c3a3;
     color: #fff;
     height: 45px;
     width: 100%;
     text-align: center;
+
+
 }
 
 .portfolio:hover .tt-overlay, 
@@ -1260,6 +1263,7 @@ Resume Timeline
 }
 .portfolio:hover .portfolio-info{
     bottom: 0;
+
 }
 .portfolio-info h3 {
     font-size: 14px;
