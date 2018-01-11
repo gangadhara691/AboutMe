@@ -1123,7 +1123,7 @@ Resume Timeline
 .portfolio-bg{
    background: #fff;
    padding: 5px;
-   margin-bottom: 20px;
+   margin-bottom: auto;
    border: 1px solid #eee;
    border-bottom: 3px double #eee;
 }
@@ -1248,7 +1248,7 @@ Resume Timeline
     height: 45px;
     width: 100%;
     text-align: center;
-    margin:auto;
+    /*margin:auto;*/
 
 
 }
