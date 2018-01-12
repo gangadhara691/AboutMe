@@ -85,6 +85,9 @@ a,
 			transition: all 0.125s ease-in-out 0s;
 }
 
+.big-icon {
+    font-size: 32px;
+}
 /* Reset box-shadow
 /* ------------------------------------------------------ */
 
@@ -164,7 +167,7 @@ h6 {
 }
 
 /*large-btn*/
-.btn-lg, 
+.btn-lg,
 .btn-group-lg>.btn {
     padding: 14px 20px;
     font-size: 14px;
@@ -177,11 +180,11 @@ h6 {
     border-color: rgba(51, 51, 51, 0.15);
 }
 
-.btn-primary:hover, 
-.btn-primary:focus, 
-.btn-primary.focus, 
-.btn-primary:active, 
-.btn-primary.active, 
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
 .open>.dropdown-toggle.btn-primary {
     color: #fff;
     background-color: #4eb28f;
@@ -194,11 +197,11 @@ h6 {
     border-color: rgba(51, 51, 51, 0.15);
 }
 
-.btn-info:hover, 
-.btn-info:focus, 
-.btn-info.focus, 
-.btn-info:active, 
-.btn-info.active, 
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info:active,
+.btn-info.active,
 .open>.dropdown-toggle.btn-info {
     color: #fff;
     background-color: #4aa0c2;
@@ -211,10 +214,10 @@ h6 {
     border: 1px solid #fff;
     color: #fff;
 }
-.btn-default:hover, 
-.btn-default:focus, 
-.btn-default.focus, 
-.btn-default:active, 
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
 .btn-default.active{
     color: #68c3a3;
     background-color: #fff;
@@ -251,7 +254,7 @@ ul, ol {
 
 
 ul.list-check {
-    
+
 }
 
 ul.list-check li{
@@ -363,8 +366,8 @@ ul.list-check li::before {
 	margin-bottom: 20px;
 }
 
-/* 
-SOCIAL ICON 
+/*
+SOCIAL ICON
 -------------------------------------------*/
 .social-icons {
     margin-top: 20px;
@@ -372,12 +375,12 @@ SOCIAL ICON
 .social-icons a i{
     position: relative;
     color: #fff;
-    font-size: 18px;
+    font-size: 30px;
     margin: 0 7px;
-    line-height: 40px;
+    line-height: 45px;
     text-align: center;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
 }
 
 .social-icons a i::before {
@@ -390,8 +393,8 @@ SOCIAL ICON
     content: "";
     left: 0;
     top: 0;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border: 1px solid #fff;
     border-radius: 3px;
     -webkit-transform: rotate(45deg);
@@ -402,7 +405,7 @@ SOCIAL ICON
     -webkit-transition: all 300ms;
        -moz-transition: all 300ms;
          -o-transition: all 300ms;
-            transition: all 300ms;            
+            transition: all 300ms;
 }
 
 .social-icons a i:hover::after{
@@ -448,7 +451,7 @@ SOCIAL ICON
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;*/
-    
+
 }
 /*.strokeme
 {
@@ -458,7 +461,7 @@ SOCIAL ICON
     1px -1px 0 #68c3a3,
     -1px 1px 0 #68c3a3,
     1px 1px 0 #68c3a3;
-    
+
 }*/
 
 .navbar-custom,
@@ -696,7 +699,7 @@ Resume Timeline
 }
 .center {
     margin: auto;
- 
+
     width: 100%;
     /*border: 3px solid green;*/
     padding: 10px;
@@ -706,7 +709,7 @@ Resume Timeline
 .center1 {
     /*margin: auto;*/
     margin:auto ;
- 
+
     width: 75%;
     /*border: 3px solid green;*/
     padding: 10px;
@@ -986,11 +989,11 @@ Resume Timeline
 /* === Skill Section === */
 .skills-section {
     background-color: #1a1e23;
-    color: #fff;   
+    color: #fff;
 }
 .skills-section .section-title{
     color: #fff;
-    margin-bottom: 110px;  
+    margin-bottom: 110px;
 }
 .skills-section .section-title h2{
     color: #fff;
@@ -1073,8 +1076,8 @@ Resume Timeline
     text-align: center;
 }
 .chart canvas {
-    position:absolute; 
-    top:0; 
+    position:absolute;
+    top:0;
     left:0;
 }
 .percent {
@@ -1196,12 +1199,12 @@ Resume Timeline
 
 
 .links {
-    width: 90px;
+    width: 150px;
     height: 40px;
     position: absolute;
     top: 40%;
     left: 50%;
-    margin-top: -20px;
+    margin-top: -25px;
     margin-left: -45px;
     opacity: 0;
     -webkit-transform: translate(0,-50px);
@@ -1212,10 +1215,10 @@ Resume Timeline
 }
 
 .links a i{
-    position: relative;
+    position:  relative;
     color: #68c3a3;
-    font-size: 16px;
-    margin: 0 13px;
+    font-size: 25px;
+    margin: 0 18px;
     z-index: 100;
 }
 .links a:hover i {
@@ -1226,8 +1229,8 @@ Resume Timeline
     content: "";
     left: -7px;
     top: -7px;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border: 1px solid #68c3a3;
     z-index: -1;
     border-radius: 3px;
@@ -1255,7 +1258,7 @@ Resume Timeline
 
 }
 
-.portfolio:hover .tt-overlay, 
+.portfolio:hover .tt-overlay,
 .portfolio:hover .links {
     opacity: 1;
     -webkit-transform: translate(0,0);
@@ -1282,9 +1285,9 @@ Resume Timeline
   opacity: 0;
   -webkit-backface-visibility: hidden;
   /* ideally, transition speed should match zoom duration */
-  -webkit-transition: all 0.3s ease-out; 
-  -moz-transition: all 0.3s ease-out; 
-  -o-transition: all 0.3s ease-out; 
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
 
@@ -1295,7 +1298,7 @@ Resume Timeline
     opacity: 0.8;
 }
 
-.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing .mfp-container,
 .mfp-with-zoom.mfp-removing.mfp-bg {
   opacity: 0;
 }
@@ -1308,7 +1311,7 @@ Resume Timeline
     background: url(../../assets/images/counter-bg.jpg) no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
-    color: #fff;  
+    color: #fff;
 }
 
 .tt-overlay-bg {
@@ -1333,7 +1336,7 @@ Resume Timeline
 
 /* === Blog Section === */
 /*.latest-blog-section {
-  
+
 }
 .blog-post-wrapper {
     padding: 4px;
@@ -1453,7 +1456,7 @@ Icon for all respective meta
 
 .the-author,
 .the-time,
-.the-share, 
+.the-share,
 .the-comments {
     position: relative;
     padding-left: 20px;
@@ -1473,7 +1476,7 @@ Icon for all respective meta
     background: url(../../assets/images/hire-bg.jpg) no-repeat top center #68C3A3;
     background-attachment: fixed;
     background-size: cover;
-    color: #fff;  
+    color: #fff;
 }
 .hire-section-bg {
     padding: 110px 0;
@@ -1495,7 +1498,7 @@ Icon for all respective meta
 
 /* === Contact Section === */
 .contact-section  {
-  
+
 }
 
 .contact-section strong {
@@ -1546,7 +1549,7 @@ Icon for all respective meta
     background: #1a1e23;
     padding: 36px 0;
     color: #fff;
-  
+
 }
 .copyright p {
     margin: 0;
