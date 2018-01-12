@@ -169,6 +169,7 @@ jQuery(function ($) {
         $grid.shuffle({
             itemSelector: '.portfolio-item'
         });
+       document.getElementById('robo').click();
 
         /* reshuffle when user clicks a filter item */
         $('#filter a').click(function (e) {
