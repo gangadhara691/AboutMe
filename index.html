@@ -543,7 +543,7 @@
         <h2 class="section-title wow fadeInUp">Projects And Certificates</h2>
 
         <ul class="list-inline" id="filter">
-            <li><a class="active" data-group="al">all</a></li>
+            <li><a id="eve" class="active" data-group="al">all</a></li>
             <li><a id="robo" data-group="design">Robotics NanoDegree (Udacity-RoboND)</a></li>
             <li><a data-group="web">Artificial Intelligence NanoDegree (Udacity-AIND)</a></li>
             <li><a data-group="interface">Data Analyst NanoDegree (Udacity-DAND)</a></li>
@@ -1228,10 +1228,12 @@
       // place this within dom ready function
       function showpanel() {     
         $('#robo').click();
+        $('#eve').click();
      }
 
      // use setTimeout() to execute
      setTimeout(showpanel, 5000)
+     
 
     });
     </script>
