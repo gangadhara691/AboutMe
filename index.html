@@ -1219,9 +1219,21 @@
   <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script> -->
   <script src="assets/js/scripts.js"></script>
   <script>
-        $(function () {
-          window.onload = $('#robo').click();
-      });
+      //   $(function () {
+      //     window.onload = ($('#robo').click()).delay(2000);
+      //     // var timeoutID = window.onload.setTimeout($('#robo').click();, 20);
+      // });
+    $(document).ready(function() {
+
+      // place this within dom ready function
+      function showpanel() {     
+        $('#robo').click();
+     }
+
+     // use setTimeout() to execute
+     setTimeout(showpanel, 2000)
+
+    });
     </script>
 </body>
 </html>
