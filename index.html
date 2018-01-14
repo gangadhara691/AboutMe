@@ -1226,25 +1226,36 @@
       //     window.onload = ($('#robo').click()).delay(2000);
       //     // var timeoutID = window.onload.setTimeout($('#robo').click();, 20);
       // });
-    $(document).ready(function() {
+    function showpanel1() {
 
-      // place this within dom ready function
-      function showpanel() {
-        $('#robo').click();
+        // $('#eve').click();
+        if(window.location.href.substr(-2) !== "?r") {
+      window.location = window.location.href + "?r";
+    }
+      }
 
-     }
-     function showpanel1() {
+    // $(document).ready(function() {
 
-        $('#eve').click();
-     }
+    //   // place this within dom ready function
+    //   function showpanel() {
+    //     $('#robo').click();
+
+    //  }
+
 
      // use setTimeout() to execute
-     setTimeout(showpanel, 2000)
+
+     // setTimeout(showpanel, 2000)
      setTimeout(showpanel1, 5000)
 
 
 
-    });
+
+
+    // });
+    // location.reload();
+
     </script>
+
 </body>
 </html>
