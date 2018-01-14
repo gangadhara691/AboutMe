@@ -1120,7 +1120,7 @@ Resume Timeline
 .portfolio-item {
     padding-right: 5px;
     padding-left: 5px;
-    min-height: 480px;
+    /*min-height: 480px;*/
     /*overflow: hidden;*/
     /*max-height: 450px;*/
 }
