@@ -304,7 +304,8 @@ ul.list-check li::before {
 /* === HOME === */
 @media (max-width : 860px) {
     .tt-fullHeight{
-        height: 860px !important;
+        height: auto;
+         /*height: 860px !important;*/
     }
 }
 
@@ -1666,6 +1667,7 @@ Icon for all respective meta
 	border-radius: 10px;
 	background: #fff;
 	width: 4px;
+
 	height: 10px;
 	top: 4px;
 	margin-left: auto;

@@ -62,6 +62,7 @@ jQuery(function ($) {
         $(window).resize(function(){
             $(".tt-fullHeight").height($(window).height());
         });
+        
 
     }());
 
