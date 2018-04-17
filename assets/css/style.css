@@ -1635,6 +1635,7 @@ Icon for all respective meta
     animation-play-state: running;
 }
 .mouse-icon1 .wheel1 {
+
     -webkit-animation-name: drop;
     -webkit-animation-duration: 1s;
     -webkit-animation-timing-function: linear;
@@ -1647,6 +1648,17 @@ Icon for all respective meta
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-play-state: running;
+}
+
+@keyframes delayedShow {
+  to {
+    visibility: visible;
+  }
+}
+
+.delayedShow{
+  visibility: hidden;
+  animation: 0s linear 7s forwards delayedShow ;
 }
 
 .mouse-icon .wheel {
