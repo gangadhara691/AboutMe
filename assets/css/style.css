@@ -781,7 +781,7 @@ Resume Timeline
 }
 
 .timeline-content{
-    padding:5px 20px 0 20px;
+    padding:5px 10px 0 20px;
 }
 
 .timeline>li .timeline-panel:before {
@@ -837,7 +837,7 @@ Resume Timeline
 }
 
 .timeline>li:last-child {
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
 .timeline-heading h3 {
@@ -847,7 +847,7 @@ Resume Timeline
 .timeline-heading span{
     display: block;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 
