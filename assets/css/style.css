@@ -1008,7 +1008,7 @@ Resume Timeline
     font-weight: 400;
     margin-top: -8px;
     text-transform: capitalize;
-    /*text-align: right;*/
+    text-align: auto;
 }
 
 
@@ -1017,11 +1017,12 @@ Resume Timeline
 
 .skill-progress {
     position: relative;
-    top:0px;
+    top:25px;
+
 }
 .progress {
     height: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     background-color: #3a4149;
     border-radius: 3px;
     box-shadow: none;
@@ -1030,6 +1031,7 @@ Resume Timeline
 
 .progress-bar {
     background-color: #68c3a3;
+
 
 }
 .progress-bar span{
@@ -1070,10 +1072,10 @@ Resume Timeline
 .chart {
     position: relative;
     left: 140px;
-    display: inline-block;
+    /*display: inline-block;*/
     width: 100px;
     height: 70px;
-    margin: -20px auto;
+    margin: auto;
     text-align: center;
 }
 .chart canvas {
